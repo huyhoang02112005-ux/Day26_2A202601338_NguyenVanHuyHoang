@@ -1,0 +1,14 @@
+2026-08-28 08:00:12 [INFO] Server started successfully on port 8000
+2026-08-28 08:05:23 [INFO] Database connection pool initialized with 10 connections
+2026-08-28 08:12:45 [WARNING] Memory usage high: 82% threshold exceeded
+2026-08-28 08:15:30 [ERROR] Failed to connect to PaymentGateway: Connection timeout after 3000ms
+2026-08-28 08:15:32 [ERROR] User checkout failed for user_id=1042 due to PaymentGateway timeout
+2026-08-28 08:20:01 [INFO] User user_id=1089 logged in successfully
+2026-08-28 08:25:14 [WARNING] Rate limit threshold warning for IP 192.168.1.105
+2026-08-28 08:30:45 [CRITICAL] Database connection lost: Host unreachable 10.0.0.15
+2026-08-28 08:31:02 [INFO] Retrying database connection attempt 1/5...
+2026-08-28 08:31:05 [INFO] Database connection re-established
+2026-08-28 08:35:50 [ERROR] Authentication failed for user_id=2055: Invalid JWT token signature
+2026-08-28 08:40:11 [INFO] Daily summary report generated successfully
+2026-08-28 08:45:00 [WARNING] Disk space warning: /var/log reaching 88% capacity
+2026-08-28 08:50:22 [ERROR] Failed to send notification email to user_id=3011: SMTP relay timeout
